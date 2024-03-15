@@ -4,7 +4,7 @@ import boto3
 
 client = boto3.client('bedrock-runtime')
 def lambda_handler(event, context):
-    print("EVENT",str(event))
+    # print("EVENT",str(event))
     
     
     try:
